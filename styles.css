@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
+
+body {
+    font-family: 'Sen', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-control:valid {
+    border: 1px solid green;
+}
+
+.form-control:invalid {
+    border: 1px solid #2980b9;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.login-register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.message-container {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#login {
+    display: none;
+}
+
+#register {
+    display: block;
+}
